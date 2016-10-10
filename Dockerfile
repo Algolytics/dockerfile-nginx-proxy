@@ -9,4 +9,4 @@ RUN tar xzf /tmp/$ENTRYKIT_FILE -C /bin && rm -rf /tmp/$ENTRYKIT_FILE
 RUN entrykit --symlink
 
 ENTRYPOINT ["render", "/etc/nginx/conf.d/algo_proxy.conf", "--", "/app/docker-entrypoint.sh"]
-
+CMD ["forego", "start", "-r"]
