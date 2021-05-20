@@ -1,4 +1,4 @@
-FROM jwilder/nginx-proxy
+FROM jwilder/nginx-proxy:0.9
 MAINTAINER Mikołaj Olszewski <mikolaj.olszewski@algolytics.pl>
 
 ENV ENTRYKIT_FILE=entrykit_0.4.0_Linux_x86_64.tgz
